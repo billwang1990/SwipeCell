@@ -32,8 +32,6 @@ NS_INLINE SwipeCellImageSet* SwipeCellImageSetMake(UIImage *shortLeftSwipeImage,
 
 
 @interface SwipeCellColorSet : NSObject
-@property (nonatomic, strong) UIColor *shortRightSwipeColor;
-@property (nonatomic, strong) UIColor *longRightSwipeColor;
 @property (nonatomic, strong) UIColor *shortLeftSwipeColor;
 @property (nonatomic, strong) UIColor *longLeftSwipeColor;
 @end
